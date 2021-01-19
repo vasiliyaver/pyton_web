@@ -1,6 +1,6 @@
 # dictionary - словарь
 database = {
-    'vikvas':'abcde',
+    'avervas':'abcde',
     'annvas':'fdcba',
     'vvas':'abdf',
     'avas':'fdba',
