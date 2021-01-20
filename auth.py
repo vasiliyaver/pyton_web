@@ -14,7 +14,7 @@ def check_password(login,password):
     return False
 
 password_count = 0
-user_login = 'vikvas'
+user_login = 'avervas'
 
 # команда with open открывает файл сама и закрывает файл сама
 with open('pop-passwords.txt') as passwords_file:
