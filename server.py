@@ -3,7 +3,7 @@ from flask import Flask, render_template
 server = Flask(__name__)
 
 messages = [
-    {'username':'vikvas','text':'Привет'},
+    {'username':'avervas','text':'Привет'},
     {'username':'egvas','text':'Здравствуйте!'},
     {'username':'julia_a','text':'Добрый день'}
 ]
@@ -23,7 +23,7 @@ def get_messages():
 
 @server.route('/index')
 def index():
-    name = 'Вика'
+    name = 'вася'
     return render_template("index.html")
 
 @server.route('/day-<num>')
